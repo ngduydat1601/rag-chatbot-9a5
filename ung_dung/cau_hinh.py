@@ -20,16 +20,22 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 # ──────────────────────────────────────────────
 # PostgreSQL
 # ──────────────────────────────────────────────
-POSTGRES_HOST = os.getenv("POSTGRES_HOST", "localhost")
-POSTGRES_PORT = os.getenv("POSTGRES_PORT", "5432")
-POSTGRES_USER = os.getenv("POSTGRES_USER", "postgres")
-POSTGRES_PASSWORD = os.getenv("POSTGRES_PASSWORD", "")
-POSTGRES_DB = os.getenv("POSTGRES_DB", "rag_thi_tuyen_sinh")
+# Ưu tiên lấy trực tiếp từ CHUOI_KET_NOI_DB hoặc DATABASE_URL (chuẩn của Render/Cloud)
+_DATABASE_URL_ENV = os.getenv("CHUOI_KET_NOI_DB") or os.getenv("DATABASE_URL")
 
-CHUOI_KET_NOI_DB = (
-    f"postgresql://{POSTGRES_USER}:{POSTGRES_PASSWORD}"
-    f"@{POSTGRES_HOST}:{POSTGRES_PORT}/{POSTGRES_DB}"
-)
+if _DATABASE_URL_ENV:
+    CHUOI_KET_NOI_DB = _DATABASE_URL_ENV
+else:
+    POSTGRES_HOST = os.getenv("POSTGRES_HOST", "localhost")
+    POSTGRES_PORT = os.getenv("POSTGRES_PORT", "5432")
+    POSTGRES_USER = os.getenv("POSTGRES_USER", "postgres")
+    POSTGRES_PASSWORD = os.getenv("POSTGRES_PASSWORD", "")
+    POSTGRES_DB = os.getenv("POSTGRES_DB", "rag_thi_tuyen_sinh")
+
+    CHUOI_KET_NOI_DB = (
+        f"postgresql://{POSTGRES_USER}:{POSTGRES_PASSWORD}"
+        f"@{POSTGRES_HOST}:{POSTGRES_PORT}/{POSTGRES_DB}"
+    )
 
 # ──────────────────────────────────────────────
 # Đường dẫn thư mục dữ liệu
