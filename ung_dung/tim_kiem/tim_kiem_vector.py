@@ -34,7 +34,6 @@ CLIENT_GEMINI = genai.Client(
     api_key=GEMINI_API_KEY,
     http_options=types.HttpOptions(
         timeout=12000,
-        retry_options=types.HttpRetryOptions(attempts=1),
     ),
 )
 
