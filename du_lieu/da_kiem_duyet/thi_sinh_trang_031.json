@@ -1,0 +1,55 @@
+{
+  "ho_ten": "NGUYỄN NHƯ QUỲNH",
+  "ngay_sinh": "12/09/2011",
+  "gioi_tinh": "Nữ",
+  "dan_toc": "Kinh",
+  "noi_sinh": "Hà Nội",
+  "ma_hoc_sinh": "0118118190",
+  "lop": "9A5",
+  "co_so_giao_duc": "THCS Chu Văn An",
+  "thi_cong_lap": true,
+  "so_luong_nguyen_vong": 3,
+  "danh_sach_nguyen_vong": [
+    {
+      "thu_tu": 1,
+      "ten_truong": "Ngọc Hồi"
+    },
+    {
+      "thu_tu": 2,
+      "ten_truong": "Đông Mỹ"
+    },
+    {
+      "thu_tu": 3,
+      "ten_truong": "Nguyễn Trãi-Thường Tín"
+    }
+  ],
+  "ngoai_ngu_hoc": "Anh",
+  "ngoai_ngu_thi": "Anh",
+  "diem_uu_tien": 1,
+  "diem_khuyen_khich": 0,
+  "diem_thi": "THCS Ngũ Hiệp, xã Nam Phù",
+  "dia_chi_diem_thi": "THCS Ngũ Hiệp, xã Nam Phù: Thôn Việt Yên, xã Nam Phù, Hà Nội.",
+  "so_bao_danh": "200116",
+  "phong_thi": "5",
+  "lich_thi": [
+    {
+      "ten_mon": "Ngữ văn",
+      "buoi_thi": "Sáng",
+      "ngay_thi": "30/5"
+    },
+    {
+      "ten_mon": "Ngoại ngữ",
+      "buoi_thi": "Chiều",
+      "ngay_thi": "30/5"
+    },
+    {
+      "ten_mon": "Toán",
+      "buoi_thi": "Sáng",
+      "ngay_thi": "31/5"
+    }
+  ],
+  "tuyen_sinh_chuyen": null,
+  "so_trang_nguon": 31,
+  "trang_thai_kiem_duyet": "verified",
+  "tai_lieu_nguon": "9A5.pdf"
+}

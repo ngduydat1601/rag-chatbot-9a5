@@ -1,0 +1,1 @@
+"""Module nhập liệu: chuyển PDF scan thành dữ liệu có cấu trúc."""

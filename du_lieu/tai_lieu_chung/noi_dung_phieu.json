@@ -1,0 +1,62 @@
+[
+  {
+    "ma_doan": "gioi_thieu",
+    "tieu_de": "Giới thiệu phiếu báo thi",
+    "noi_dung": "Phiếu báo thi vào lớp 10 THPT năm học 2026-2027. Được cấp bởi trường THCS Chu Văn An, thuộc UBND Phường Yên Sở, theo ủy quyền của Giám đốc Sở Giáo dục và Đào tạo Hà Nội. Phiếu này báo cho thí sinh biết các thông tin cần thiết để dự kỳ thi tuyển sinh vào lớp 10 THPT công lập tại Hà Nội.",
+    "nguon": "Phần đầu phiếu báo thi, tất cả các trang"
+  },
+  {
+    "ma_doan": "thong_tin_ca_nhan",
+    "tieu_de": "Cấu trúc thông tin cá nhân trên phiếu",
+    "noi_dung": "Phiếu báo thi chứa các mục thông tin cá nhân sau: họ tên thí sinh, ngày sinh, giới tính, dân tộc, nơi sinh, mã học sinh, lớp (ví dụ: 9A5), cơ sở giáo dục (trường THCS đang học ở năm lớp 9), và ảnh thẻ 4x6 cm. Mỗi thí sinh có một mã học sinh duy nhất gồm 10 chữ số.",
+    "nguon": "Phần trên của phiếu, bên trái"
+  },
+  {
+    "ma_doan": "tuyen_sinh_khong_chuyen",
+    "tieu_de": "Phần tuyển sinh không chuyên",
+    "noi_dung": "Phần tuyển sinh không chuyên (PHẦN TUYỂN SINH KHÔNG CHUYÊN) ghi rõ: nguyện vọng xét tuyển, môn thi, số báo danh, phòng thi, và điểm thi. Thí sinh đăng ký thi vào công lập bằng cách đánh dấu [X] vào ô 'Thi vào công lập'. Phần này cũng ghi ngoại ngữ đăng ký học THPT và ngoại ngữ đăng ký thi. Thí sinh được đăng ký tối đa 3 nguyện vọng, sắp xếp theo thứ tự ưu tiên từ NV1 đến NV3. Mỗi nguyện vọng tương ứng với một trường THPT.",
+    "nguon": "Phần giữa phiếu, tiêu đề in đậm"
+  },
+  {
+    "ma_doan": "tuyen_sinh_chuyen",
+    "tieu_de": "Phần tuyển sinh chuyên",
+    "noi_dung": "Phần tuyển sinh chuyên (PHẦN TUYỂN SINH CHUYÊN) chỉ áp dụng cho các thí sinh đăng ký thi vào trường chuyên. Phần này ghi: trường chuyên, lớp chuyên đăng ký (ví dụ: Tin/1, Toán/2), môn thi chuyên, ngày thi chuyên, điểm thi chuyên, phòng thi chuyên. Thí sinh có thể đăng ký nhiều nguyện vọng chuyên. Trong lớp 9A5 THCS Chu Văn An, chỉ có 1 thí sinh (Phùng Minh Vũ, trang 42) đăng ký thi chuyên môn Tin.",
+    "nguon": "Phần dưới phiếu, chỉ hiển thị khi thí sinh có đăng ký thi chuyên"
+  },
+  {
+    "ma_doan": "lich_thi",
+    "tieu_de": "Quy định về lịch thi các môn",
+    "noi_dung": "Kỳ thi tuyển sinh vào lớp 10 THPT năm 2026-2027 diễn ra trong 2 ngày với 3 môn thi: Ngữ văn (Sáng ngày 30/5/2026), Ngoại ngữ (Chiều ngày 30/5/2026), và Toán (Sáng ngày 31/5/2026). Lịch thi này áp dụng chung cho tất cả thí sinh thi tuyển sinh không chuyên. Thí sinh thi chuyên có thêm 1 buổi thi riêng vào ngày 01/6/2026.",
+    "nguon": "Cột 'Lịch thi các môn' ở giữa phiếu"
+  },
+  {
+    "ma_doan": "thoi_gian_tap_trung",
+    "tieu_de": "Thời gian và địa điểm tập trung làm thủ tục dự thi",
+    "noi_dung": "Đúng 9h00 ngày 29/5/2026, thí sinh có mặt tại trường THPT được chỉ định (điểm thi) để làm thủ tục dự thi. Địa điểm tập trung chính là điểm thi ghi trên phiếu. Ví dụ: thí sinh thi tại THPT Nguyễn Quốc Trinh thì có mặt tại Thôn Đại Áng, xã Ngọc Hồi, Hà Nội. Thí sinh cần mang theo phiếu báo thi và giấy tờ tùy thân.",
+    "nguon": "Dòng in nghiêng ở giữa phiếu, ngay dưới thông tin cơ sở giáo dục"
+  },
+  {
+    "ma_doan": "thoi_gian_du_thi",
+    "tieu_de": "Quy định giờ có mặt để dự thi",
+    "noi_dung": "Thời gian có mặt để dự thi: Buổi sáng 7h00, Buổi chiều 13h00. Đây là giờ thí sinh phải có mặt tại phòng thi, không phải giờ bắt đầu làm bài. Lưu ý thời gian này khác với thời gian tập trung làm thủ tục (9h00 ngày 29/5/2026).",
+    "nguon": "Phần 'Lưu ý' cuối phiếu"
+  },
+  {
+    "ma_doan": "diem_thi",
+    "tieu_de": "Thông tin về điểm thi và địa chỉ điểm thi",
+    "noi_dung": "Mỗi thí sinh được phân công một điểm thi cụ thể ghi trên phiếu. Điểm thi là một trường THPT tại Hà Nội. Phiếu ghi rõ tên điểm thi, số báo danh, phòng thi, và địa chỉ chi tiết của điểm thi (ở phần Lưu ý cuối phiếu). Trong lớp 9A5 THCS Chu Văn An, các thí sinh được phân bổ thi tại nhiều điểm thi khác nhau trên địa bàn Hà Nội.",
+    "nguon": "Dòng 'Điểm thi' và phần 'Địa chỉ Điểm thi' cuối phiếu"
+  },
+  {
+    "ma_doan": "nguyen_vong",
+    "tieu_de": "Quy định về nguyện vọng tuyển sinh",
+    "noi_dung": "Thí sinh được đăng ký tối đa 3 nguyện vọng vào các trường THPT công lập. Các nguyện vọng được sắp xếp theo thứ tự ưu tiên: NV1 (nguyện vọng 1) được xét trước, sau đó đến NV2 và NV3. Mỗi nguyện vọng tương ứng với một trường THPT khác nhau. Số lượng nguyện vọng thực tế của mỗi thí sinh được ghi trên phiếu (từ 1 đến 3). Ngoài nguyện vọng thường, thí sinh thi chuyên có thêm nguyện vọng chuyên riêng.",
+    "nguon": "Phần danh sách NV1, NV2, NV3 bên trái phiếu"
+  },
+  {
+    "ma_doan": "diem_uu_tien_khuyen_khich",
+    "tieu_de": "Điểm ưu tiên và điểm khuyến khích",
+    "noi_dung": "Phiếu báo thi ghi rõ 2 loại điểm cộng: Điểm ưu tiên (UT) và Điểm khuyến khích (KK). Đa số thí sinh lớp 9A5 có điểm ưu tiên = 0 và điểm khuyến khích = 0. Tuy nhiên, có trường hợp đặc biệt: thí sinh Nguyễn Như Quỳnh (trang 31) có điểm ưu tiên = 1. Điểm ưu tiên được cộng vào tổng điểm thi khi xét tuyển vào trường THPT.",
+    "nguon": "Dòng 'Điểm UT' và 'Điểm KK' trên phiếu"
+  }
+]

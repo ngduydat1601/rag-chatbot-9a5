@@ -1,0 +1,19 @@
+# Môi trường ảo
+venv/
+.venv/
+
+# Biến môi trường
+.env
+
+# Dữ liệu gốc (chứa thông tin cá nhân)
+du_lieu/goc/
+du_lieu/anh_trang/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/

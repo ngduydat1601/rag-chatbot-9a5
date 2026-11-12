@@ -1,0 +1,55 @@
+{
+  "ho_ten": "NGUYỄN GIA BẢO",
+  "ngay_sinh": "02/07/2011",
+  "gioi_tinh": "Nam",
+  "dan_toc": "Kinh",
+  "noi_sinh": "Hà Nội",
+  "ma_hoc_sinh": "0118202281",
+  "lop": "9A5",
+  "co_so_giao_duc": "THCS Chu Văn An",
+  "thi_cong_lap": true,
+  "so_luong_nguyen_vong": 3,
+  "danh_sach_nguyen_vong": [
+    {
+      "thu_tu": 1,
+      "ten_truong": "Nguyễn Quốc Trinh"
+    },
+    {
+      "thu_tu": 2,
+      "ten_truong": "Nguyễn Trãi-Thường Tín"
+    },
+    {
+      "thu_tu": 3,
+      "ten_truong": "Lý Tử Tấn"
+    }
+  ],
+  "ngoai_ngu_hoc": "Anh",
+  "ngoai_ngu_thi": "Anh",
+  "diem_uu_tien": 0,
+  "diem_khuyen_khich": 0,
+  "diem_thi": "THPT Nguyễn Quốc Trinh",
+  "dia_chi_diem_thi": "Thôn Đại Áng, xã Ngọc Hồi, Hà Nội.",
+  "so_bao_danh": "204109",
+  "phong_thi": "5",
+  "lich_thi": [
+    {
+      "ten_mon": "Ngữ văn",
+      "buoi_thi": "Sáng",
+      "ngay_thi": "30/5"
+    },
+    {
+      "ten_mon": "Ngoại ngữ",
+      "buoi_thi": "Chiều",
+      "ngay_thi": "30/5"
+    },
+    {
+      "ten_mon": "Toán",
+      "buoi_thi": "Sáng",
+      "ngay_thi": "31/5"
+    }
+  ],
+  "tuyen_sinh_chuyen": null,
+  "so_trang_nguon": 5,
+  "trang_thai_kiem_duyet": "verified",
+  "tai_lieu_nguon": "9A5.pdf"
+}

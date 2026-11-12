@@ -1,0 +1,35 @@
+databases:
+  - name: csdl-rag-9a5
+    databaseName: rag_thi_tuyen_sinh
+    user: postgres
+    region: singapore
+    plan: free
+    postgresMajorVersion: 16
+
+services:
+  - type: web
+    name: bot-telegram-9a5
+    env: python
+    region: singapore
+    plan: free
+    branch: main
+    # Lệnh cài đặt thư viện khi build
+    buildCommand: pip install -r requirements.txt
+    # Lệnh chạy đồng thời Web UI FastAPI và Bot Telegram nền
+    startCommand: uvicorn ung_dung.api:ung_dung_api --host 0.0.0.0 --port $PORT & python -m ung_dung.bot_telegram
+    # Cấu hình các biến môi trường
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.6
+      - key: GEMINI_CHAT_MODEL
+        value: gemini-3.1-flash-lite
+      # Render sẽ tự động lấy connection string từ database bên trên gán vào đây
+      - key: CHUOI_KET_NOI_DB
+        fromDatabase:
+          name: csdl-rag-9a5
+          property: connectionString
+      # Các biến bảo mật sẽ yêu cầu bạn nhập tay 1 lần trên dashboard (không lộ lên git)
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false

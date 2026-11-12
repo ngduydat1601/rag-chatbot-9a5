@@ -1,0 +1,72 @@
+{
+  "ho_ten": "PHÙNG MINH VŨ",
+  "ngay_sinh": "06/07/2011",
+  "gioi_tinh": "Nam",
+  "dan_toc": "Kinh",
+  "noi_sinh": "Hà Nội",
+  "ma_hoc_sinh": "0118468421",
+  "lop": "9A5",
+  "co_so_giao_duc": "THCS Chu Văn An",
+  "thi_cong_lap": true,
+  "so_luong_nguyen_vong": 3,
+  "danh_sach_nguyen_vong": [
+    {
+      "thu_tu": 1,
+      "ten_truong": "Đỗ Mười"
+    },
+    {
+      "thu_tu": 2,
+      "ten_truong": "Ngọc Hồi"
+    },
+    {
+      "thu_tu": 3,
+      "ten_truong": "Đông Mỹ"
+    }
+  ],
+  "ngoai_ngu_hoc": "Anh",
+  "ngoai_ngu_thi": "Anh",
+  "diem_uu_tien": 0,
+  "diem_khuyen_khich": 0,
+  "diem_thi": "THCS Phùng Hưng, phường Sơn Tây",
+  "dia_chi_diem_thi": "Đường Quang Trung, phường Sơn Tây, Hà Nội.",
+  "so_bao_danh": "171496",
+  "phong_thi": "21",
+  "lich_thi": [
+    {
+      "ten_mon": "Ngữ văn",
+      "buoi_thi": "Sáng",
+      "ngay_thi": "30/5"
+    },
+    {
+      "ten_mon": "Ngoại ngữ",
+      "buoi_thi": "Chiều",
+      "ngay_thi": "30/5"
+    },
+    {
+      "ten_mon": "Toán",
+      "buoi_thi": "Sáng",
+      "ngay_thi": "31/5"
+    }
+  ],
+  "tuyen_sinh_chuyen": {
+    "danh_sach_nguyen_vong_chuyen": [
+      {
+        "thu_tu": 1,
+        "truong_chuyen": "Chuyên Sơn Tây",
+        "lop_chuyen": "Tin/1"
+      },
+      {
+        "thu_tu": 2,
+        "truong_chuyen": "Chuyên Nguyễn Huệ",
+        "lop_chuyen": "Tin/2"
+      }
+    ],
+    "mon_thi_chuyen": "Tin",
+    "ngay_thi_chuyen": "Sáng 01/6",
+    "diem_thi_chuyen": "THPT chuyên Sơn Tây",
+    "phong_thi_chuyen": "9"
+  },
+  "so_trang_nguon": 42,
+  "trang_thai_kiem_duyet": "verified",
+  "tai_lieu_nguon": "9A5.pdf"
+}

@@ -1,0 +1,55 @@
+{
+  "ho_ten": "MAI VIẾT KHOA",
+  "ngay_sinh": "04/11/2011",
+  "gioi_tinh": "Nam",
+  "dan_toc": "Kinh",
+  "noi_sinh": "Hà Nội",
+  "ma_hoc_sinh": "3641148900",
+  "lop": "9A5",
+  "co_so_giao_duc": "THCS Chu Văn An",
+  "thi_cong_lap": true,
+  "so_luong_nguyen_vong": 3,
+  "danh_sach_nguyen_vong": [
+    {
+      "thu_tu": 1,
+      "ten_truong": "Ngọc Hồi"
+    },
+    {
+      "thu_tu": 2,
+      "ten_truong": "Nguyễn Quốc Trinh"
+    },
+    {
+      "thu_tu": 3,
+      "ten_truong": "Nguyễn Trãi-Thường Tín"
+    }
+  ],
+  "ngoai_ngu_hoc": "Anh",
+  "ngoai_ngu_thi": "Anh",
+  "diem_uu_tien": 0,
+  "diem_khuyen_khich": 0,
+  "diem_thi": "THPT Ngọc Hồi",
+  "dia_chi_diem_thi": "THPT Ngọc Hồi: Đường Lưu Phái, xã Thanh Trì, Hà Nội.",
+  "so_bao_danh": "199407",
+  "phong_thi": "17",
+  "lich_thi": [
+    {
+      "ten_mon": "Ngữ văn",
+      "buoi_thi": "Sáng",
+      "ngay_thi": "30/5"
+    },
+    {
+      "ten_mon": "Ngoại ngữ",
+      "buoi_thi": "Chiều",
+      "ngay_thi": "30/5"
+    },
+    {
+      "ten_mon": "Toán",
+      "buoi_thi": "Sáng",
+      "ngay_thi": "31/5"
+    }
+  ],
+  "tuyen_sinh_chuyen": null,
+  "so_trang_nguon": 19,
+  "trang_thai_kiem_duyet": "verified",
+  "tai_lieu_nguon": "9A5.pdf"
+}

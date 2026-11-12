@@ -1,0 +1,401 @@
+{
+  "tong_ban_ghi": 43,
+  "so_hop_le": 43,
+  "so_co_loi": 0,
+  "tong_loi": 0,
+  "tong_canh_bao": 2,
+  "loi_trung_lap": [],
+  "chi_tiet": [
+    {
+      "ho_ten": "ĐẶNG LINH AN",
+      "so_trang": 1,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "LÊ MAI KHÁNH AN",
+      "so_trang": 2,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "ĐỖ HOÀNG BẢO ANH",
+      "so_trang": 3,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "TRỊNH ĐỨC ANH",
+      "so_trang": 4,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "NGUYỄN GIA BẢO",
+      "so_trang": 5,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "PHẠM HƯƠNG BÌNH",
+      "so_trang": 6,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "PHẠM NGUYỄN HÒA BÌNH",
+      "so_trang": 7,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "NGÔ HÀ CHI",
+      "so_trang": 8,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "TRẦN QUỲNH CHI",
+      "so_trang": 9,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "NGUYỄN THỊ NGỌC DIỆP",
+      "so_trang": 10,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "LÊ XUÂN ĐỨC",
+      "so_trang": 11,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "VŨ MINH ĐỨC",
+      "so_trang": 12,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "TRẦN HƯƠNG GIANG",
+      "so_trang": 13,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "VŨ MINH HÀ",
+      "so_trang": 14,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "NGUYỄN THANH HẰNG",
+      "so_trang": 15,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "NGUYỄN TIẾN HUY",
+      "so_trang": 16,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "NGUYỄN LÂM CHẤN HƯNG",
+      "so_trang": 17,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "LƯU THIÊN HƯƠNG",
+      "so_trang": 18,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "MAI VIẾT KHOA",
+      "so_trang": 19,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "PHẠM MINH LÂM",
+      "so_trang": 20,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "ĐỖ GIA LINH",
+      "so_trang": 21,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "PHẠM PHƯƠNG MAI",
+      "so_trang": 22,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "BÙI TIẾN MẠNH",
+      "so_trang": 23,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "LÊ HOÀNG NHẬT MINH",
+      "so_trang": 24,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "NGUYỄN ĐỨC MINH",
+      "so_trang": 25,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "NGUYỄN THU BẢO MINH",
+      "so_trang": 26,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "NGUYỄN KIM NGÂN",
+      "so_trang": 27,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "HOÀNG GIA NGUYÊN",
+      "so_trang": 28,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "VŨ HẢI PHƯƠNG",
+      "so_trang": 29,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "PHẠM HỒNG QUANG",
+      "so_trang": 30,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "NGUYỄN NHƯ QUỲNH",
+      "so_trang": 31,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 1,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": [
+        "Điểm ưu tiên = 1 (cần đối chiếu phiếu gốc)"
+      ]
+    },
+    {
+      "ho_ten": "ĐỖ NGỌC TÂN",
+      "so_trang": 32,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "NGUYỄN HỒNG THÁI",
+      "so_trang": 33,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "ĐỖ VĂN CÔNG THÀNH",
+      "so_trang": 34,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "LƯU ANH THẢO",
+      "so_trang": 35,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "HỨA MINH THỦY",
+      "so_trang": 36,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "NGUYỄN HUYỀN TRANG",
+      "so_trang": 37,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "NGUYỄN LINH TRANG",
+      "so_trang": 38,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "NGUYỄN MINH TRIẾT",
+      "so_trang": 39,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "NGUYỄN TRẦN HUY TUÁN",
+      "so_trang": 40,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "NGUYỄN BẢO UYÊN",
+      "so_trang": 41,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    },
+    {
+      "ho_ten": "PHÙNG MINH VŨ",
+      "so_trang": 42,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 1,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": [
+        "Có phần thi chuyên — cần kiểm tra kỹ thông tin chuyên"
+      ]
+    },
+    {
+      "ho_ten": "VŨ QUANG VỸ",
+      "so_trang": 43,
+      "hop_le": true,
+      "so_loi": 0,
+      "so_canh_bao": 0,
+      "danh_sach_loi": [],
+      "danh_sach_canh_bao": []
+    }
+  ]
+}
