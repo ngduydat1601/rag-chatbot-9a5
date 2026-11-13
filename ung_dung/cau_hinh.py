@@ -72,7 +72,7 @@ DUONG_DAN_TAI_LIEU_CHUNG = THU_MUC_GOC / "du_lieu/tai_lieu_chung"
 # Sử dụng gemini-3.1-flash-lite cho tốc độ phản hồi ~1.0s/call (nhanh gấp 6.6 lần gemini-3.5-flash-lite)
 GEMINI_CHAT_MODEL = os.getenv("GEMINI_CHAT_MODEL", "gemini-3.1-flash-lite")  # Model trả lời chatbot
 NHIET_DO_PHAN_TICH = 0.0                    # 0.0 = tất định, dùng cho phân tích JSON
-NHIET_DO_TRA_LOI = 0.3                      # Chút sáng tạo khi sinh câu trả lời
+NHIET_DO_TRA_LOI = 0.0                      # 0.0 = hoàn toàn bám sát dữ liệu, triệt tiêu bịa đặt (hallucination)
 
 # ──────────────────────────────────────────────
 # Telegram Bot
