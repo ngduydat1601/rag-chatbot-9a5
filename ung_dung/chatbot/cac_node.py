@@ -281,7 +281,10 @@ def tong_hop_bang_chung(trang_thai: TrangThaiChat) -> dict:
             cac_phan.append("=== DỮ LIỆU TỪ CƠ SỞ DỮ LIỆU (SQL) ===")
             cac_phan.append(f"Câu lệnh SQL đã chạy: {cau_sql}")
             cac_phan.append(f"Số bản ghi tìm thấy: {so_ban_ghi}")
-            cac_phan.append(json.dumps(du_lieu, ensure_ascii=False, separators=(",", ":"), default=str))
+            if so_ban_ghi == 0:
+                cac_phan.append("⚠️ KẾT QUẢ: KHÔNG CÓ BẢN GHI NÀO PHÙ HỢP. Câu truy vấn SQL đã chạy thành công nhưng trả về 0 kết quả. Điều này có nghĩa là KHÔNG CÓ dữ liệu nào trong CSDL khớp với điều kiện tìm kiếm. BẠN KHÔNG ĐƯỢC TỰ BỊA RA SỐ LIỆU.")
+            else:
+                cac_phan.append(json.dumps(du_lieu, ensure_ascii=False, separators=(",", ":"), default=str))
         else:
             loi = ket_qua_sql.get("loi", "Không tìm thấy dữ liệu")
             cac_phan.append(f"=== KẾT QUẢ TRUY VẤN SQL ===\n{loi}")
@@ -308,8 +311,42 @@ def tong_hop_bang_chung(trang_thai: TrangThaiChat) -> dict:
 
 
 # ══════════════════════════════════════════════════════
-# NODE 5: Tạo câu trả lời
+# NODE 5: Tạo câu trả lời (có kiểm tra chống hallucination)
 # ══════════════════════════════════════════════════════
+
+def _kiem_tra_bia_so_lieu(cau_tra_loi: str, ket_qua_sql: dict | None) -> str | None:
+    """
+    Lớp 3 chống hallucination: Kiểm tra xem câu trả lời có chứa số liệu
+    bịa đặt khi SQL thực tế trả về 0 bản ghi không.
+    Trả về câu trả lời đã sửa nếu phát hiện bịa, None nếu hợp lệ.
+    """
+    if not ket_qua_sql or not isinstance(ket_qua_sql, dict):
+        return None
+    if not ket_qua_sql.get("thanh_cong"):
+        return None
+
+    so_ban_ghi = ket_qua_sql.get("so_ban_ghi", 0)
+
+    if so_ban_ghi == 0:
+        # SQL trả về 0 bản ghi — kiểm tra xem LLM có bịa con số > 0 không
+        cac_so = re.findall(r'\b(\d+)\b', cau_tra_loi)
+        cac_so_lon = [int(s) for s in cac_so if int(s) > 0 and int(s) not in {
+            # Loại trừ các con số là ngày tháng/giờ/năm hợp lệ trong ngữ cảnh thi cử
+            7, 9, 10, 13, 29, 30, 31, 2026, 2027,
+            # Loại trừ số phòng thi, SBD phổ biến
+        }]
+        # Nếu câu trả lời chứa số lớn (kiểu "36 học sinh", "8 bạn") mà SQL trả về 0
+        for so in cac_so_lon:
+            if so >= 2 and so <= 100:
+                return (
+                    "Theo dữ liệu trong hệ thống, mình không tìm thấy bản ghi nào "
+                    "phù hợp với câu hỏi của bạn. Có thể tên trường hoặc từ khóa tìm kiếm "
+                    "chưa chính xác. Bạn thử hỏi lại với tên đầy đủ hoặc cách diễn đạt khác nhé!"
+                )
+
+    return None
+
+
 def tao_cau_tra_loi(trang_thai: TrangThaiChat) -> dict:
     """Node 5: Gemini đọc bằng chứng và sinh câu trả lời tự nhiên."""
     if trang_thai.get("trang_thai") == "khong_tim_thay":
@@ -331,6 +368,13 @@ def tao_cau_tra_loi(trang_thai: TrangThaiChat) -> dict:
 
     try:
         van_ban_tra_loi = _goi_gemini_nhanh(prompt, nhiet_do=NHIET_DO_TRA_LOI)
+
+        # Lớp 3: Kiểm tra chống hallucination — phát hiện LLM bịa số liệu
+        ket_qua_sql = trang_thai.get("ket_qua_sql")
+        cau_da_sua = _kiem_tra_bia_so_lieu(van_ban_tra_loi, ket_qua_sql)
+        if cau_da_sua:
+            van_ban_tra_loi = cau_da_sua
+
         return {
             "cau_tra_loi": van_ban_tra_loi,
             "trang_thai": "thanh_cong",
