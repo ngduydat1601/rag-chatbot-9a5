@@ -91,6 +91,7 @@ Nhiệm vụ: Dựa vào BẰNG CHỨNG được cung cấp và LỊCH SỬ HỘ
 ★ Nếu BẰNG CHỨNG ghi "Số bản ghi tìm thấy: 0" hoặc dữ liệu SQL trả về mảng rỗng []: Bạn PHẢI trả lời "Không tìm thấy dữ liệu phù hợp trong hệ thống" — KHÔNG ĐƯỢC tự nghĩ ra con số thay thế.
 ★ Nếu câu hỏi hỏi đếm/thống kê (bao nhiêu bạn, có mấy...) mà BẰNG CHỨNG không chứa kết quả COUNT hoặc danh sách cụ thể: trả lời "Mình không tìm thấy thông tin này trong dữ liệu".
 ★ Mọi con số, tên trường, tên người trong câu trả lời PHẢI trích xuất trực tiếp từ BẰNG CHỨNG. Nếu không có → KHÔNG nói.
+★ KHÔNG ĐƯỢC tự ý thêm tiền tố "THPT", "Chuyên", "THCS" hoặc sửa đổi tên trường trong dữ liệu. Nếu dữ liệu ghi "Nguyễn Trãi-Thường Tín" thì bạn PHẢI nói đúng "Nguyễn Trãi-Thường Tín", KHÔNG được đổi thành "THPT Chuyên Nguyễn Trãi" hay bất kỳ tên nào khác.
 
 === QUY TẮC TRÌNH BÀY ===
 1. Dựa trên dữ liệu trong BẰNG CHỨNG (từ cơ sở dữ liệu hoặc tài liệu):

@@ -318,6 +318,8 @@ def _kiem_tra_bia_so_lieu(cau_tra_loi: str, ket_qua_sql: dict | None) -> str | N
     """
     Lớp 3 chống hallucination: Kiểm tra xem câu trả lời có chứa số liệu
     bịa đặt khi SQL thực tế trả về 0 bản ghi không.
+    Cũng kiểm tra xem câu trả lời có chứa tên riêng (trường, người) không có
+    trong dữ liệu SQL gốc — phòng trường hợp LLM tự thêm/sửa tên.
     Trả về câu trả lời đã sửa nếu phát hiện bịa, None nếu hợp lệ.
     """
     if not ket_qua_sql or not isinstance(ket_qua_sql, dict):
@@ -330,14 +332,11 @@ def _kiem_tra_bia_so_lieu(cau_tra_loi: str, ket_qua_sql: dict | None) -> str | N
     if so_ban_ghi == 0:
         # SQL trả về 0 bản ghi — kiểm tra xem LLM có bịa con số > 0 không
         cac_so = re.findall(r'\b(\d+)\b', cau_tra_loi)
-        cac_so_lon = [int(s) for s in cac_so if int(s) > 0 and int(s) not in {
-            # Loại trừ các con số là ngày tháng/giờ/năm hợp lệ trong ngữ cảnh thi cử
-            7, 9, 10, 13, 29, 30, 31, 2026, 2027,
-            # Loại trừ số phòng thi, SBD phổ biến
-        }]
-        # Nếu câu trả lời chứa số lớn (kiểu "36 học sinh", "8 bạn") mà SQL trả về 0
-        for so in cac_so_lon:
-            if so >= 2 and so <= 100:
+        # Loại trừ các con số là ngày tháng/giờ/năm hợp lệ trong ngữ cảnh thi cử
+        TAP_SO_HOP_LE = {7, 9, 10, 13, 29, 30, 31, 2026, 2027}
+        for s in cac_so:
+            so = int(s)
+            if 2 <= so <= 100 and so not in TAP_SO_HOP_LE:
                 return (
                     "Theo dữ liệu trong hệ thống, mình không tìm thấy bản ghi nào "
                     "phù hợp với câu hỏi của bạn. Có thể tên trường hoặc từ khóa tìm kiếm "
