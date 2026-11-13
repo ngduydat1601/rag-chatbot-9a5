@@ -382,6 +382,15 @@ def lam_moi_schema():
     }
 
 
+@ung_dung_api.get(
+    "/api/ping",
+    summary="Endpoint siêu nhẹ để cron-job ping giữ thức",
+)
+def ping():
+    """Trả về phản hồi 2 byte cực nhẹ để cron-job ping không bị lỗi output too large."""
+    return "OK"
+
+
 # ──────────────────────────────────────────────
 # Chạy trực tiếp qua lệnh python
 # ──────────────────────────────────────────────
